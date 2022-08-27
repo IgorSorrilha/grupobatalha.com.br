@@ -1,0 +1,38 @@
+footer .realizacao {
+  background-color: #364848;
+  padding-bottom: 25px;
+}
+
+footer .realizacao p {
+  font-family: 'Titillium';
+  color: white;
+  font-size: 14px;
+  padding: 30px;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  footer .realizacao p {
+    font-size: 10px;
+    padding: 15px;
+  }
+}
+
+/* Small */
+@media (min-width: 768px) and (max-width: 991px) {
+  footer .realizacao p {
+    font-size: 10px;
+    padding: 15px;
+  }
+}
+
+/* Medium */
+@media (min-width: 992px) and (max-width: 1199px) {
+  footer .realizacao p {
+    font-size: 10px;
+    padding: 15px;
+  }
+}
+
+/* Large */
+/*# sourceMappingURL=footer.css.map */

@@ -1,0 +1,130 @@
+.contato {
+  padding-bottom: 2vw;
+}
+
+.contato .tt-form {
+  margin-bottom: 1vw;
+}
+
+.contato .tt-form p {
+  font-family: 'Titillium';
+  font-size: 2.3vw;
+  color: #ffffff;
+  line-height: 2.3vw;
+}
+
+.contato .group-form .form-group {
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-bottom: 10px;
+}
+
+.contato .group-form .form-control {
+  font-family: 'Noway';
+  font-weight: bold;
+  height: 35px;
+  padding: 6px 12px;
+  font-size: 13px;
+  line-height: 1.42857143;
+  color: #364848;
+  background-color: #bfd040;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  position: relative;
+  border: none;
+  border-radius: 0;
+}
+
+.contato .group-form .form-control::-webkit-input-placeholder {
+  color: #364848;
+  position: absolute;
+  left: 2%;
+  top: 10px;
+}
+
+.contato .group-form .form-control:-ms-input-placeholder {
+  color: #364848;
+  position: absolute;
+  left: 2%;
+  top: 10px;
+}
+
+.contato .group-form .form-control::-ms-input-placeholder {
+  color: #364848;
+  position: absolute;
+  left: 2%;
+  top: 10px;
+}
+
+.contato .group-form .form-control::placeholder {
+  color: #364848;
+  position: absolute;
+  left: 2%;
+  top: 10px;
+}
+
+.contato .group-form textarea {
+  height: 125px !important;
+}
+
+.contato .group-form .btn_enviar {
+  font-family: 'Titillium';
+  font-weight: bold;
+  font-style: normal;
+  padding: 5px 15px 5px 15px;
+  margin-bottom: 0;
+  font-size: 21px;
+  letter-spacing: 1px;
+  line-height: 1.42857143;
+  border: 0px solid transparent;
+  border-radius: 25px;
+  color: #364848;
+  background-color: #bfd040;
+  float: right;
+  text-transform: uppercase;
+}
+
+.contato .group-form .btn_enviar:hover, .contato .group-form .btn_enviar:focus {
+  background-color: #fff;
+  outline: none;
+  outline-offset: 0px;
+}
+
+.contato small {
+  font-family: 'Noway';
+  color: #bfd040;
+  font-size: 10px;
+  line-height: 13px;
+  display: block;
+  margin-top: -7%;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  .contato {
+    padding-bottom: 20px;
+  }
+  .contato .tt-form {
+    margin-bottom: 3vw;
+  }
+  .contato .tt-form p {
+    font-size: 5vw;
+    line-height: 5vw;
+  }
+  .contato small {
+    margin-top: 10px;
+    text-align: center;
+  }
+  .contato .group-form .form-control {
+    padding: 6px 6px;
+  }
+  .contato .group-form .btn_enviar {
+    font-size: 20px;
+    padding: 3px 13px 3px 13px;
+  }
+}
+
+/* Small */
+/* Medium */
+/* Large */
+/*# sourceMappingURL=contato.css.map */
