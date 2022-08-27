@@ -94,7 +94,7 @@
     </div>
 </div>
 
-<div id="cookies" class="cookies">
+<!-- <div id="cookies" class="cookies">
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-offset-2 box">
         <div class="col-xs-12 col-sm-9 col-md-9">
             <p>
@@ -105,7 +105,7 @@
             <a href="#" class="btn_cookie btn center-block">Aceito</a>
         </div>
     </div>
-</div>
+</div> -->
 
 <?php
 if (isset($email_enviado))

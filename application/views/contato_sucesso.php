@@ -17,19 +17,19 @@
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off">
         <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/home-img.png">
     </div>
-    <div class="col-xs-6 col-xs-offset-3 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4 col-lg-4 col-lg-offset-4">
+    <div class="col-xs-6 col-xs-offset-3 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4 col-lg-4 col-lg-offset-4 wow fadeInRightBig">
         <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/logo-terroir31.png">
     </div>
-    <div class="col-xs-11 col-sm-11 col-md-10 col-lg-10 padding-off">
+    <div class="col-xs-11 col-sm-11 col-md-10 col-lg-10 padding-off wow fadeInLeftBig">
         <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/linha.png">
     </div>
     
-    <div class="container segredos">
+    <div class="container segredos wow fadeInDown">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
             <p>Um lugar. Inúmeros segredos.</p>
         </div>
     </div>
-    <div class="container altopadrao">
+    <div class="container altopadrao wow fadeInDown">
         <div class="box-altopadrao">
             <h3>CONDOMÍNIO DE ALTO PADRÃO</h3>
             <p>CASAS EM TERRENOS DE 1000 A 3000 M², </br>
@@ -37,7 +37,7 @@
                 JÁ PLANTADAS NA EXTENSÃO DO SEU QUINTAL.</p>
         </div>
     </div>
-    <div class="lista-infos">
+    <div class="lista-infos wow fadeInUp">
         <ul>
             <li>CASAS DE 157, 272 E 556 M² PRIVATIVOS</li>
             <li>4 LAGOS</li>
@@ -50,13 +50,13 @@
                 COM PORTARIA 24 HORAS</li>
         </ul>
     </div>
-    <div class="container investimento">
+    <div class="container investimento wow fadeInUp">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
             <p>Um investimento exclusivo. </br>
             Um segredo e um privilégio para poucos.</p>
         </div>
     </div>
-    <div class="container contato">
+    <div class="container contato wow fadeIn">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 tt-form text-center">
             <p>PREENCHA O FORMULÁRIO </br>
             PARA TER MAIS INFORMAÇÕES:</p>
@@ -94,7 +94,7 @@
     </div>
 </div>
 
-<div id="cookies" class="cookies">
+<!-- <div id="cookies" class="cookies">
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-offset-2 box">
         <div class="col-xs-12 col-sm-9 col-md-9">
             <p>
@@ -105,7 +105,7 @@
             <a href="#" class="btn_cookie btn center-block">Aceito</a>
         </div>
     </div>
-</div>
+</div> -->
 
 <div id="aviso" class="aviso text-center">
     <div>

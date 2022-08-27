@@ -103,7 +103,7 @@ $(document).on('ready', function () {
 $(document).ready(function () {
     $("#close").click(function () {
         $("#aviso").hide();
-        window.location.href = "https://www.reservanatureatibaia.com.br/"
+        window.location.href = "https://www.grupobatalha.com.br/"
     });
 });
 

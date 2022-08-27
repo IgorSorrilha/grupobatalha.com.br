@@ -327,7 +327,7 @@ p {
 
 .cookies .box p a {
   text-decoration: underline;
-  color: #fff;
+  color: #bfd040;
 }
 
 .cookies .box .btn_cookie {
@@ -800,13 +800,13 @@ footer .realizacao p {
 
 /* Large */
 .politica-tt {
-  background-color: #00541f;
+  background-color: #364848;
   padding-top: 17px;
   padding-bottom: 17px;
 }
 
 .politica-tt h3 {
-  font-family: 'Bebas Neue';
+  font-family: 'Titillium';
   font-weight: bold;
   font-style: normal;
   color: #ffffff;
@@ -819,29 +819,9 @@ footer .realizacao p {
 }
 
 .politica {
-  background-color: #dbe296;
+  background-color: #bfd040;
   position: relative;
   padding-top: 10px;
-}
-
-.politica::before {
-  content: "";
-  width: 2%;
-  height: 100%;
-  position: absolute;
-  left: 0;
-  top: 0;
-  background-color: #ffffff;
-}
-
-.politica::after {
-  content: "";
-  width: 2%;
-  height: 100%;
-  position: absolute;
-  right: 0;
-  top: 0;
-  background-color: #ffffff;
 }
 
 .politica .politica-info {
@@ -849,7 +829,7 @@ footer .realizacao p {
 }
 
 .politica .politica-info p {
-  font-family: 'Myriad Pro';
+  font-family: 'Titillium';
   font-weight: normal;
   font-style: normal;
   color: #000;
