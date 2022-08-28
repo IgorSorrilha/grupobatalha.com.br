@@ -420,6 +420,10 @@ p {
   }
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .home-01 {
   background-color: #bfd040;
 }

@@ -7,9 +7,9 @@ class Home extends CI_Controller{
         parent::__construct();
     }
     public function index(){
-        $data['title'] = 'Grupo Batalha';
-        $data['description'] = 'Terrenos a partir de 360M²';
-        $data['keywords'] = 'Reserva Atibaia; Terrenos Atibaia; lotes interior de sp; coworking Atibaia; lotes fernao dias';
+        $data['title'] = 'Terroir³¹ Residencial Resort & Olivial';
+        $data['description'] = 'Seja bem-vindo ao 1° Residencial Resort & Olival do Brasil.';
+        $data['keywords'] = 'terroir; residencial; resort; olivial';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'home_view';
         $this->load->view('html_header', $data);
@@ -22,9 +22,9 @@ class Home extends CI_Controller{
     }
     public function politicadeprivacidade()
     {
-        $data['title'] = 'Grupo Batalha';
-        $data['description'] = 'Terrenos a partir de 360M²';
-        $data['keywords'] = 'Reserva Atibaia; Terrenos Atibaia; lotes interior de sp; coworking Atibaia; lotes fernao dias';
+        $data['title'] = 'Terroir³¹ Residencial Resort & Olivial';
+        $data['description'] = 'Seja bem-vindo ao 1° Residencial Resort & Olival do Brasil.';
+        $data['keywords'] = 'terroir; residencial; resort; olivial';
         $menu['politicadeprivacidade'] = 'active';
         $conteudo['pagina_view'] = 'politicadeprivacidade_view';
         $this->load->view('html_header', $data);
@@ -36,9 +36,9 @@ class Home extends CI_Controller{
     }
     public function politicadecookies()
     {
-        $data['title'] = 'Grupo Batalha';
-        $data['description'] = 'Terrenos a partir de 360M²';
-        $data['keywords'] = 'Reserva Atibaia; Terrenos Atibaia; lotes interior de sp; coworking Atibaia; lotes fernao dias';
+        $data['title'] = 'Terroir³¹ Residencial Resort & Olivial';
+        $data['description'] = 'Seja bem-vindo ao 1° Residencial Resort & Olival do Brasil.';
+        $data['keywords'] = 'terroir; residencial; resort; olivial';
         $menu['politicadecookies'] = 'active';
         $conteudo['pagina_view'] = 'politicadecookies_view';
         $this->load->view('html_header', $data);
