@@ -15,13 +15,13 @@
 </div>
 <div class="container-fluid padding-off home-conteudo">
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off">
-        <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/home-img.png">
+        <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/home-img.png" alt="Terroir³¹ Residencial Resort & Olivial">
     </div>
     <div class="col-xs-6 col-xs-offset-3 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4 col-lg-4 col-lg-offset-4 wow fadeInRightBig">
-        <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/logo-terroir31.png">
+        <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/logo-terroir31.png" alt="Terroir³¹ Residencial Resort & Olivial">
     </div>
     <div class="col-xs-11 col-sm-11 col-md-10 col-lg-10 padding-off wow fadeInLeftBig">
-        <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/linha.png">
+        <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/linha.png" alt="Terroir³¹ Residencial Resort & Olivial">
     </div>
     
     <div class="container segredos wow fadeInDown">
