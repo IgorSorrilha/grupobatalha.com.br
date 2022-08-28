@@ -9,7 +9,7 @@ class Contato extends CI_Controller{
     public function index(){
         $data['title'] = 'Terroir³¹ Residencial Resort & Olivial';
         $data['description'] = 'Seja bem-vindo ao 1° Residencial Resort & Olival do Brasil.';
-        $data['keywords'] = 'terroir; Residencial; Resort; Olivial';
+        $data['keywords'] = 'terroir; residencial; resort; olivial';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'contato_view';
 
@@ -57,7 +57,7 @@ class Contato extends CI_Controller{
     public function obrigado(){
         $data['title'] = 'Terroir³¹ Residencial Resort & Olivial';
         $data['description'] = 'Seja bem-vindo ao 1° Residencial Resort & Olival do Brasil.';
-        $data['keywords'] = 'terroir; Residencial; Resort; Olivial';
+        $data['keywords'] = 'terroir; residencial; resort; olivial';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'contato_sucesso';
         $this->load->view('html_header', $data);
@@ -71,7 +71,7 @@ class Contato extends CI_Controller{
     public function fail(){
         $data['title'] = 'Terroir³¹ Residencial Resort & Olivial';
         $data['description'] = 'Seja bem-vindo ao 1° Residencial Resort & Olival do Brasil.';
-        $data['keywords'] = 'terroir; Residencial; Resort; Olivial';
+        $data['keywords'] = 'terroir; residencial; resort; olivial';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'contato_insucesso';
         $this->load->view('html_header', $data);
