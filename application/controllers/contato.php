@@ -26,7 +26,7 @@ class Contato extends CI_Controller{
 
             $this->email->from("contato@grupobatalha.com.br","Terroir Residencial Resort & Olivial");
             $this->email->to('contato@grupobatalha.com.br');
-            $this->email->cc('kaubat@hotmail.com, leb.chalet@uol.com.br, renata@spicycomm.com.br, front.baronista@gmail.com');
+            $this->email->cc('kaubat@hotmail.com, leb.chalet@uol.com.br, renata@spicycomm.com.br, renatajsimoes@gmail.com, front.baronista@gmail.com');
             //$this->email->cc('igor_sorrilha@hotmail.com, front.baronista@gmail.com');
             
             $this->email->subject($assunto);
