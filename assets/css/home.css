@@ -1,1 +1,225 @@
-body{overflow-x:hidden}.home-01{background-color:#bfd040}.home-01 .faixa-01{background-color:#243434;width:65%}.home-01 .faixa-01 p{font-family:"Titillium";font-weight:600;color:#fff;padding:5px;font-size:35px}.home-01 .tt-01{padding:25px}.home-01 .tt-01 p{font-family:"Titillium";font-weight:bold;font-size:50px;line-height:60px;color:#364848}.home-conteudo{background-color:#364848}.home-conteudo .filme{width:50%}.home-conteudo .segredos p{font-family:"Titillium";font-size:3.4vw;color:#bfd040}.home-conteudo .altopadrao{display:flex;justify-content:center;margin-top:4vw}.home-conteudo .altopadrao .box-altopadrao{display:flex;flex-direction:column;justify-content:center;text-align:center;background-color:#bfd040;width:47.5vw;border-radius:15px;padding:30px}.home-conteudo .altopadrao .box-altopadrao p,.home-conteudo .altopadrao .box-altopadrao h3{font-family:"Titillium";font-weight:bold;color:#364848}.home-conteudo .altopadrao .box-altopadrao h3{font-size:2.6vw;margin:-5px 0 25px 0}.home-conteudo .altopadrao .box-altopadrao p{font-size:2vw;line-height:2vw}.home-conteudo .lista-infos{display:flex;justify-content:center;font-family:"Titillium";font-size:2vw;letter-spacing:2px;font-weight:600;color:#fff;margin-top:5vw}.home-conteudo .lista-infos ul{list-style-type:square}.home-conteudo .lista-infos ul ::marker{color:#bfd040}.home-conteudo .investimento{margin-top:2vw;margin-bottom:3vw}.home-conteudo .investimento p{font-family:"Titillium";font-weight:600;font-size:3.2vw;color:#bfd040;line-height:3.2vw}@media(max-width: 767px){.home-01 .faixa-01{width:75%}.home-01 .faixa-01 p{font-size:4vw;padding:7px}.home-01 .tt-01{padding:20px}.home-01 .tt-01 p{font-size:4.7vw;line-height:5vw}.home-conteudo .filme{width:80%}.home-conteudo .segredos p{font-size:5vw}.home-conteudo .altopadrao{margin-top:3vw}.home-conteudo .altopadrao .box-altopadrao{width:77vw;padding:12px}.home-conteudo .altopadrao .box-altopadrao h3{font-size:4.2vw;margin-top:0;margin-bottom:5px}.home-conteudo .altopadrao .box-altopadrao p{font-size:3.3vw;line-height:2.7vw}.home-conteudo .lista-infos{letter-spacing:0px;font-size:4vw}.home-conteudo .lista-infos ul{padding:0}.home-conteudo .investimento{margin-top:5vw;margin-bottom:10vw}.home-conteudo .investimento p{font-size:4.6vw;line-height:4.6vw}}@media(min-width: 768px)and (max-width: 991px){.home-01 .faixa-01 p{font-size:3vw}.home-01 .tt-01 p{font-size:4vw;line-height:40px}.home-conteudo .altopadrao{margin-top:3vw}.home-conteudo .altopadrao .box-altopadrao{width:46vw;padding:15px}.home-conteudo .altopadrao .box-altopadrao h3{margin-bottom:10px}}@media(min-width: 992px)and (max-width: 1199px){.home-01 .faixa-01 p{font-size:3vw}.home-01 .tt-01 p{font-size:4vw;line-height:45px}.home-conteudo .altopadrao{margin-top:3vw}.home-conteudo .altopadrao .box-altopadrao{padding:20px}.home-conteudo .altopadrao .box-altopadrao h3{margin-bottom:15px}}
+body {
+  overflow-x: hidden;
+}
+
+.home-01 {
+  background-color: #bfd040;
+}
+
+.home-01 .faixa-01 {
+  background-color: #243434;
+  width: 65%;
+}
+
+.home-01 .faixa-01 p {
+  font-family: 'Titillium';
+  font-weight: 600;
+  color: white;
+  padding: 5px;
+  font-size: 35px;
+}
+
+.home-01 .tt-01 {
+  padding: 25px;
+}
+
+.home-01 .tt-01 p {
+  font-family: 'Titillium';
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 60px;
+  color: #364848;
+}
+
+.home-conteudo {
+  background-color: #364848;
+}
+
+.home-conteudo .filme {
+  width: 50%;
+}
+
+.home-conteudo .segredos p {
+  font-family: 'Titillium';
+  font-size: 3.4vw;
+  color: #bfd040;
+}
+
+.home-conteudo .altopadrao {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 4vw;
+}
+
+.home-conteudo .altopadrao .box-altopadrao {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  background-color: #bfd040;
+  width: 47.5vw;
+  border-radius: 15px;
+  padding: 30px;
+}
+
+.home-conteudo .altopadrao .box-altopadrao p, .home-conteudo .altopadrao .box-altopadrao h3 {
+  font-family: 'Titillium';
+  font-weight: bold;
+  color: #364848;
+}
+
+.home-conteudo .altopadrao .box-altopadrao h3 {
+  font-size: 2.6vw;
+  margin: -5px 0 25px 0;
+}
+
+.home-conteudo .altopadrao .box-altopadrao p {
+  font-size: 2vw;
+  line-height: 2vw;
+}
+
+.home-conteudo .lista-infos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: 'Titillium';
+  font-size: 2vw;
+  letter-spacing: 2px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-top: 5vw;
+}
+
+.home-conteudo .lista-infos ul {
+  list-style-type: square;
+}
+
+.home-conteudo .lista-infos ul ::marker {
+  color: #bfd040;
+}
+
+.home-conteudo .investimento {
+  margin-top: 2vw;
+  margin-bottom: 3vw;
+}
+
+.home-conteudo .investimento p {
+  font-family: 'Titillium';
+  font-weight: 600;
+  font-size: 3.2vw;
+  color: #bfd040;
+  line-height: 3.2vw;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  .home-01 .faixa-01 {
+    width: 75%;
+  }
+  .home-01 .faixa-01 p {
+    font-size: 4vw;
+    padding: 7px;
+  }
+  .home-01 .tt-01 {
+    padding: 20px;
+  }
+  .home-01 .tt-01 p {
+    font-size: 4.7vw;
+    line-height: 5vw;
+  }
+  .home-conteudo .filme {
+    width: 100%;
+  }
+  .home-conteudo .segredos p {
+    font-size: 5vw;
+  }
+  .home-conteudo .altopadrao {
+    margin-top: 3vw;
+  }
+  .home-conteudo .altopadrao .box-altopadrao {
+    width: 77vw;
+    padding: 12px;
+  }
+  .home-conteudo .altopadrao .box-altopadrao h3 {
+    font-size: 4.2vw;
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+  .home-conteudo .altopadrao .box-altopadrao p {
+    font-size: 3.3vw;
+    line-height: 2.7vw;
+  }
+  .home-conteudo .lista-infos {
+    letter-spacing: 0px;
+    font-size: 4vw;
+  }
+  .home-conteudo .lista-infos ul {
+    padding: 0;
+  }
+  .home-conteudo .investimento {
+    margin-top: 5vw;
+    margin-bottom: 10vw;
+  }
+  .home-conteudo .investimento p {
+    font-size: 4.6vw;
+    line-height: 4.6vw;
+  }
+}
+
+/* Small */
+@media (min-width: 768px) and (max-width: 991px) {
+  .home-01 .faixa-01 p {
+    font-size: 3vw;
+  }
+  .home-01 .tt-01 p {
+    font-size: 4vw;
+    line-height: 40px;
+  }
+  .home-conteudo .altopadrao {
+    margin-top: 3vw;
+  }
+  .home-conteudo .altopadrao .box-altopadrao {
+    width: 46vw;
+    padding: 15px;
+  }
+  .home-conteudo .altopadrao .box-altopadrao h3 {
+    margin-bottom: 10px;
+  }
+}
+
+/* Medium */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .home-01 .faixa-01 p {
+    font-size: 3vw;
+  }
+  .home-01 .tt-01 p {
+    font-size: 4vw;
+    line-height: 45px;
+  }
+  .home-conteudo .altopadrao {
+    margin-top: 3vw;
+  }
+  .home-conteudo .altopadrao .box-altopadrao {
+    padding: 20px;
+  }
+  .home-conteudo .altopadrao .box-altopadrao h3 {
+    margin-bottom: 15px;
+  }
+}
+
+/* Large */
+/*# sourceMappingURL=home.css.map */
