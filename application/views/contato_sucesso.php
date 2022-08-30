@@ -23,7 +23,11 @@
     <div class="col-xs-11 col-sm-11 col-md-10 col-lg-10 padding-off wow fadeInLeftBig">
         <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/linha.png" alt="Terroir³¹ Residencial Resort & Olivial">
     </div>
-    
+    <div class="container filme wow fadeInDown">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/_1q2I7tHgzA"></iframe>
+        </div>
+    </div>  
     <div class="container segredos wow fadeInDown">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
             <p>Um lugar. Inúmeros segredos.</p>
